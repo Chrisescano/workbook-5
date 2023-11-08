@@ -1,10 +1,10 @@
 package org.pluralsight;
 
 public class Vehicle {
-    protected String color;
-    protected int numberOfPassengers;
-    protected int cargoCapacity;
-    protected int fuelCapacity;
+    private String color;
+    private int numberOfPassengers;
+    private int cargoCapacity;
+    private int fuelCapacity;
 
     public String getColor() {
         return color;
